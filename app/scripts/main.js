@@ -20,7 +20,7 @@ function init() {
 
   scene.add(camera);
 
-  renderer = new THREE.WebGLRenderer({ antialiasing: true });
+  renderer = new THREE.WebGLRenderer({ antialias: true });
   // renderer.shadowMapEnabled = true;
   // renderer.shadowCameraNear = 3;
   // renderer.shadowCameraFar = camera.far;
